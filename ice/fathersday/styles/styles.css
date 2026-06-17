@@ -1,0 +1,69 @@
+/* Add your CSS here to style your father's day page */
+body {
+  margin-left: 0;
+  height: 100%;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom, #FFFF99, #FF9933);
+  background-repeat: no-repeat; /* Just in case */
+  background-attachment: fixed;
+}
+
+#wrapper {
+  width: 1200px;
+  margin: auto;
+  background: #55A14168;
+  display: grid;
+}
+
+nav {
+    height: 50px;
+    display: flex;
+    justify-content: end;
+    color: #000;
+    margin-right: 50px;
+}
+
+li {
+    display: flex;
+    align-items: end;
+    color: #000;
+    font-weight: bold;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    justify-content: flex-end;
+}
+
+li:hover {
+    background: #55A14188;
+    text-shadow: 2px 2px #2E5FB667;
+}
+
+h1 {
+    text-align: center;
+}
+
+img {
+    margin-left: 100px;
+}
+
+section {
+    margin: 10px;
+    border: 5px solid #000;
+    border-radius: 10px;
+    background: #fff;
+    width: 60%;
+    margin-left: 20%;
+}
+
+h2 {
+    padding-left: 10px;
+}
+
+p {
+    padding: 10px;
+}
+
+footer {
+    text-align: center;
+}
