@@ -4,8 +4,87 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>My First Web Page</title>
+        <link rel="stylesheet" href="styles/style.css">
     </head>
-    <body>
-        Hello World
+    <body id="home">
+        <header>
+            <img src="images/logo.jpg" id="logo" alt="Logo">
+            <h1>Bruce Holway's Portal Page</h1>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="wwr/index.html">WWR</a>
+                <a href="ice.html">ICE</a>
+                <a href="about.html">About Me</a>
+            </nav>
+        </header>
+
+        <div id="wwr">
+            <img src="images/wwr.jpg" class="thumbnail" alt="WWR_Image">
+            <h6 class="div_header">White Water Rafting</h6>
+            <ul>
+                <li>Tutorial Site</li>
+                <li>Planning</li>
+                <li>Wireframe</li>
+                <li>Structure with HTML</li>
+                <li>Style with CSS</li>
+            </ul>
+        </div>
+
+        <div id="ice">
+            <img src="images/ice.jpg" class="thumbnail" alt="ICE_Image">
+            <h6 class="div_header">In-Class Exercises</h6>
+            <ul>
+                <li>Practice in Class</li>
+                <li>45 Minutes to Complete in Class</li>
+                <li>Challenges in HTML and CSS</li>
+                <li>Focus on Grid Practice</li>
+                <li>Help and Encourage Classmates</li>
+            </ul>
+        </div>
+
+        <div id="projects">
+            <img src="images/projects.png" class="thumbnail" alt="Projects_Image">
+            <h6 class="div_header">Web Development Projects</h6>
+            <table>
+                <tr>
+                    <th>Role</th>
+                    <th>Website Link</th>
+                    <th>About</th>
+                </tr>
+                <tr>
+                    <td>Client</td>
+                    <td><a href="https://preston553.github.io/wdd130-holway/">Art Portfolio Website</a></td>
+                    <td>A website showcasing my art portfolio.</td>
+                </tr>
+                <tr>
+                    <td>Lead Developer</td>
+                    <td><a href="https://hallway5.github.io/wdd130-velasquez/">Law Schools Website</a></td>
+                    <td>A website sharing infroamtion about top law schools.</td>
+                </tr>
+                <tr>
+                    <td>Junior Developer 1</td>
+                    <td><a href=""></a></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Junior Developer 2</td>
+                    <td><a href="https://hoo25012.github.io/wdd130-commins/">How to Pick Up an Apple</a></td>
+                    <td>A website with instructions on how to pick up an apple.</td>
+                </tr>
+            </table>
+        </div>
+
+        <div id="contact">
+            <h6>Contact Me:</h6>
+            <label for="email">Email:</label>
+            <br>
+            <input type="email" id="email" name="email" required>
+            <br>
+            <label for="comments">Comments:</label>
+            <br>
+            <textarea id="comments" name="comments" required></textarea>
+            <br>
+            <button type="submit">Submit</button>
+        </div>
     </body>
 </html>
